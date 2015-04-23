@@ -1,0 +1,52 @@
+Initialize engine version: 4.3.2f1 (0517a5ae8669)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 9.0c [aticfx32.dll 8.17.10.1211]
+    Renderer: AMD Radeon R7 200 Series
+    Vendor:   ATI
+    VRAM:     2031 MB (via DXGI)
+    Caps:     Shader=30 DepthRT=1 NativeDepth=1 NativeShadow=1 DF16=1 INTZ=1 RAWZ=0 NULL=1 RESZ=1 SlowINTZ=1
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\Romaine\Desktop\School Stuff and Others\Game Making\Unity3D\Tower Defense\TD_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Romaine\Desktop\School Stuff and Others\Game Making\Unity3D\Tower Defense\TD_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Romaine\Desktop\School Stuff and Others\Game Making\Unity3D\Tower Defense\TD_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Romaine\Desktop\School Stuff and Others\Game Making\Unity3D\Tower Defense\TD_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Romaine\Desktop\School Stuff and Others\Game Making\Unity3D\Tower Defense\TD_Data\Managed\Assembly-UnityScript-firstpass.dll (this message is harmless)
+Loading C:\Users\Romaine\Desktop\School Stuff and Others\Game Making\Unity3D\Tower Defense\TD_Data\Managed\Assembly-UnityScript-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\Romaine\Desktop\School Stuff and Others\Game Making\Unity3D\Tower Defense\TD_Data\Managed\Pathfinding.Ionic.Zip.Reduced.dll (this message is harmless)
+Loading C:\Users\Romaine\Desktop\School Stuff and Others\Game Making\Unity3D\Tower Defense\TD_Data\Managed\Pathfinding.Ionic.Zip.Reduced.dll into Unity Child Domain
+Platform assembly: C:\Users\Romaine\Desktop\School Stuff and Others\Game Making\Unity3D\Tower Defense\TD_Data\Managed\Pathfinding.JsonFx.dll (this message is harmless)
+Loading C:\Users\Romaine\Desktop\School Stuff and Others\Game Making\Unity3D\Tower Defense\TD_Data\Managed\Pathfinding.JsonFx.dll into Unity Child Domain
+- Completed reload, in  0.064 seconds
+desktop: 1680x1050 60Hz; virtual: 3360x1050 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+Platform assembly: C:\Users\Romaine\Desktop\School Stuff and Others\Game Making\Unity3D\Tower Defense\TD_Data\Managed\System.dll (this message is harmless)
+Platform assembly: C:\Users\Romaine\Desktop\School Stuff and Others\Game Making\Unity3D\Tower Defense\TD_Data\Managed\System.Core.dll (this message is harmless)
+Scanning - Process took 11 ms to complete
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AstarPath:AstarLog(String) (at C:\Users\Romaine\Desktop\School Stuff and Others\Game Making\Unity3D\Tower Defense\Assets\AstarPathfindingProject\Core\AstarPath.cs:589)
+AstarPath:ScanLoop(OnScanStatus) (at C:\Users\Romaine\Desktop\School Stuff and Others\Game Making\Unity3D\Tower Defense\Assets\AstarPathfindingProject\Core\AstarPath.cs:1862)
+AstarPath:Scan() (at C:\Users\Romaine\Desktop\School Stuff and Others\Game Making\Unity3D\Tower Defense\Assets\AstarPathfindingProject\Core\AstarPath.cs:1721)
+AstarPath:Awake() (at C:\Users\Romaine\Desktop\School Stuff and Others\Game Making\Unity3D\Tower Defense\Assets\AstarPathfindingProject\Core\AstarPath.cs:1267)
+ 
+(Filename: C Line: 0)
+
+Path Completed : Computation Time 3.00 ms Searched Nodes 215 Path Length 22
+Path Number 1
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AstarPath:LogPathResults(Path) (at C:\Users\Romaine\Desktop\School Stuff and Others\Game Making\Unity3D\Tower Defense\Assets\AstarPathfindingProject\Core\AstarPath.cs:622)
+<CalculatePaths>c__Iterator7:MoveNext() (at C:\Users\Romaine\Desktop\School Stuff and Others\Game Making\Unity3D\Tower Defense\Assets\AstarPathfindingProject\Core\AstarPath.cs:2482)
+AstarPath:Update() (at C:\Users\Romaine\Desktop\School Stuff and Others\Game Making\Unity3D\Tower Defense\Assets\AstarPathfindingProject\Core\AstarPath.cs:664)
+ 
+(Filename: C Line: 0)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Component:GetComponent (System.Type)
+  at UnityEngine.Component.GetComponent[HoveringTexture] () [0x00000] in <filename unknown>:0 
+  at TemporaryEnemyScript.OnBecameInvisible () [0x00000] in C:\Users\Romaine\Desktop\School Stuff and Others\Game Making\Unity3D\Tower Defense\Assets\Scripts\Enemy\TemporaryEnemyScript.cs:53 
+ 
+(Filename: C Line: 0)
+
